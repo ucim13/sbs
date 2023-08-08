@@ -1,7 +1,7 @@
 <?php
 
-if (!defined('APP_NAME'))                       define('APP_NAME', 'Login System');
-if (!defined('APP_ORGANIZATION'))               define('APP_ORGANIZATION', 'KLiK');
+if (!defined('APP_NAME'))                       define('APP_NAME', 'SMK SBS Login');
+if (!defined('APP_ORGANIZATION'))               define('APP_ORGANIZATION', 'MUIL Creative');
 if (!defined('APP_OWNER'))                      define('APP_OWNER', 'msaad1999');
 if (!defined('APP_DESCRIPTION'))                define('APP_DESCRIPTION', 'Embeddable PHP Login System');
 

@@ -53,6 +53,20 @@ h6 {
   }
 }
 
+
+
+/*--------------------------------------------------------------
+# Rounded Circle
+--------------------------------------------------------------*/
+.rounded-fit-covered{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  /* margin-top: -45px;
+  margin-bottom: 35px; */
+  border: 3px solid #e6e5e1;
+}
 /*--------------------------------------------------------------
 # Page Title
 --------------------------------------------------------------*/
@@ -365,7 +379,7 @@ h6 {
 }
 
 .logo img {
-  max-height: 26px;
+  max-height: 50px;
   margin-right: 6px;
 }
 
