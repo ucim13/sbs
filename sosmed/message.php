@@ -22,6 +22,10 @@
 
         <?php include 'includes/navbar.php'; ?>
         
+        <section class="section profile">
+      <div class="row">
+        <div class="col-xl-12">
+
         <div class="cover">
             <div class="messaging">
               <div class="inbox_msg">
@@ -181,6 +185,9 @@
         </div>
     </div>
             
+        </div>
+      </div>
+        </section>
  
     <?php include 'includes/footer.php'; ?>
 	<script src="js/jquery.min.js"></script>

@@ -1,5 +1,6 @@
 <?php 
 require_once '../admin/header/header.php';
+require_once '../admin/nav/nav.php';
 ?>
   <main id="main" class="main">
 

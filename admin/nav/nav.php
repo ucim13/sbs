@@ -1,10 +1,11 @@
+
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top d-flex align-items-center">
 
     <div class="d-flex align-items-center justify-content-between">
-      <a href="index.php" class="logo d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center">
         <img src="../assets/img/logo.png" alt="">
-        <span class="d-none d-lg-block">SMK SBS</span>
+        <span class="d-none d-lg-block">NiceAdmin</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
@@ -110,7 +111,7 @@
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
             <li class="dropdown-header">
               You have 3 new messages
-              <a href="message.php"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
             </li>
             <li>
               <hr class="dropdown-divider">
@@ -159,7 +160,7 @@
             </li>
 
             <li class="dropdown-footer">
-              <a href="message.php">Show all messages</a>
+              <a href="#">Show all messages</a>
             </li>
 
           </ul><!-- End Messages Dropdown Items -->
@@ -169,14 +170,14 @@
         <li class="nav-item dropdown pe-3">
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <img src="uploads/<?php echo $_SESSION["userImg"] ?>" alt="Profile" class="rounded-circle">
-            <span class="d-none d-md-block dropdown-toggle ps-2">  <?php echo ucwords($_SESSION['userUid']); ?></span>
+            <img src="../assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
           </a><!-- End Profile Iamge Icon -->
 
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
-              <h6><?php echo ucwords($_SESSION['f_name']." ".$_SESSION['l_name']); ?></h6>
-              <span><?php echo $_SESSION['headline']; ?></span>
+              <h6>Kevin Anderson</h6>
+              <span>Web Designer</span>
             </li>
             <li>
               <hr class="dropdown-divider">
@@ -463,62 +464,3 @@
     </ul>
 
   </aside><!-- End Sidebar-->
-
-  <main id="main" class="main">
-
-
-<!--  
-
-        <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
-            <a class="navbar-brand" href="index.php">
-                <img src="img/200.png" width="40" height="40">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-right" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto mr-1">
-                <li class="nav-item px-3">
-                    <a class="nav-link" href="index.php">
-                        <i class="fa fa-bar-chart fa-2x" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="nav-item px-3">
-                    <a class="nav-link" href="https://github.com/msaad1999/KLiK--PHP-coded-Social-Media-Website">
-                        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="nav-item px-3">
-                    <a class="nav-link" href="message.php">
-                        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="nav-item px-3">
-                    <a class="nav-link" href="users-view.php">
-                        <i class="fa fa-users fa-2x" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="nav-item dropdown px-3">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="profile.php">My Profile</a>
-                    <a class="dropdown-item" href="edit-profile.php">Edit Profile</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="users-view.php">Find People</a>
-                    <a class="dropdown-item" href="contact.php">Contact Us</a>
-                  </div>
-                </li>
-                <li class="nav-item px-3">
-                  <a class="nav-link" href="includes/logout.inc.php">
-                      <i class="fa fa-sign-out fa-2x" aria-hidden="true"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-        </nav>
-        
-     
- -->
